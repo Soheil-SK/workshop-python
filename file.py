@@ -10,12 +10,12 @@ for i in range(0, 100):
 
 def calculate(a):
     result = 0;
-    if (type(a) 
-    for i in a:
-        if (i.isstring()):
-            result += i
-    return (result);
-        
+    if (type(nb) != list or len(nb) < 2):
+        return false
+    for i in (nb):
+        if (nb[i].isdigit()):
+            return (result)
+        return (0)        
 calculate(['nothing', 3, '8', 2, '1'])
 
 def decorator_to_str(func):
